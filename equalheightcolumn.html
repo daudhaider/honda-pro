@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create three equal columns that floats next to each other */
+
+    h2 {
+      text-transform: capitalize !important;
+      font-size: 22px;
+      line-height: 30px;
+      margin-top: 15px !important;
+    }
+
+    .column {
+      float: left;
+      width: 31%;
+      padding: 2% 2%;
+      border-radius: 5px;
+      border: #8a8a8a 1px solid;
+      margin: 1%;
+      background-color: white !important;
+      height: justified;
+    }
+
+    .row {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .row {
+      /* display: table;
+      width: 100%; */
+      display: flex;
+      /* flex-wrap: wrap; */
+      /* justify-content: space-around; */
+    }
+
+    .column {
+      flex: 1 0 0%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      margin: 5%;
+    }
+
+    p {
+      text-align: left;
+      font-size: 23px;
+      line-height: 37px;
+    }
+
+    .card-body {
+      flex: 1 1 auto;
+      padding: 3rem 0;
+    }
+
+    .card-title {
+      flex: 1 1 auto !important;
+    }
+
+    .clr {
+      background-color: #07AF9E;
+      padding: 2%;
+      color: white;
+    }
+
+
+    img {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+      /* For mobile phones: */
+      .row {
+        width: 100%;
+      }
+
+      .column {
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 5%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        font-size: 16px;
+        text-align: left;
+      }
+
+    }
+  </style>
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <body>
+    <div class='container'>
+      <div class="row">
+        <div class="column">
+          <center><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/2with-Logos_b0a0937c-91c4-4628-ba5b-82af3586b955.png?v=1627496502"></a>
+          </center>
+          <div class='card-title'>
+            <h2>COVID-19 vaccines are safe</h2>
+          </div>
+          <div class='card-body'>
+
+            <p>The US Center for Disease Control and Prevention announces that COVID-19 vaccines were
+              developed using science that has been around for decades, they are not experimental, they
+              went through all required stages of clinical trials, through extensive testing, they are safe and
+              effective.</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html" target="_blank"><b>READ
+                MORE</b></a></p>
+        </div>
+
+        <div class="column">
+          <center><a href="https://www.hhs.gov/immunization/basics/work/protection/index.html"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Vaccines_Protect....jpg?v=1627633928"></a>
+          </center>
+          <div class='card-title'>
+            <h2>Vaccines Protect Your Community (Community Immunity)</h2>
+          </div>
+          <div class='card-body'>
+            <p>The US Department of Health & Human Services explains how you protect your community
+              when you’re vaccinated, through community immunity.</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://www.hhs.gov/immunization/basics/work/protection/index.html" target="_blank"><b> READ MORE
+              </b></a></p>
+        </div>
+
+        <div class="column">
+          <center><a
+              href="https://www.franklintempleton.com/download/en-usa/common/kj5djlz7/ft-economics-of-recovery-press-release-121420.pdf"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Getting_Vaccinated_Helps....jpg?v=1627633928"></a>
+          </center>
+          <div class='card-title'>
+            <h2>Getting vaccinated helps the US economy</h2>
+          </div>
+          <div class='card-body'>
+            <p>Franklyn Templeton press release summary of consumer behavior, participation in the
+              economy and reaction to aspects of the pandemic most relevant to economic growth.</p>
+          </div>
+          <p class="clr" style="text-align: center;margin-top:35px;"><a
+              href="https://www.franklintempleton.com/download/en-usa/common/kj5djlz7/ft-economics-of-recovery-press-release-121420.pdf"
+              target="_blank"><b> READ MORE </b></a></p>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="column">
+          <center><a
+              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness/breakthrough-cases.html"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/When_You_Are_Vaccinated....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>When you are vaccinated there is a much lower chance you will get the
+          </div>
+          <div class='card-body'>
+            COVID-19 virus or transmit it to others. But it is still possible</h2>
+            <p>The US Center for Disease Control and Prevention informs that a small percentage of fully
+              vaccinated people may still develop illness, but COVID-19 vaccines help protect people who
+              are vaccinated from getting COVID-19 or getting severely ill from COVID-19, including
+              reducing the risk of hospitalization and death</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness/why-measure-effectiveness/breakthrough-cases.html"
+              target="_blank"><b>READ MORE</b></a></p>
+        </div>
+
+
+        <div class="column">
+          <center><a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Over_163.6M....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>Over 163.3M people have been vaccinated in the US as of 7-28-21 (49.2% of
+          </div>
+          <div class='card-body'>
+            the US population)</h2>
+            <p>See the CDC COVID Data Tracker – Daily updates of COVID-19 vaccination doses delivered
+              and administered in the US.</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations"
+              target="_blank"><b>READ MORE</b></a></p>
+        </div>
+
+
+        <div class="column">
+          <center><a href="https://apnews.com/article/coronavirus-pandemic-health-941fcf43d9731c76c16e7354f5d5e187"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Nearly_All_COVID....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>Nearly all COVID deaths in the US are now among unvaccinated</h2>
+          </div>
+          <div class='card-body'>
+            <p>AP News provides “a staggering demonstration of how effective the shots have been and an
+              indication of deaths per day – now down to under 300…”</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://apnews.com/article/coronavirus-pandemic-health-941fcf43d9731c76c16e7354f5d5e187"
+              target="_blank"><b>READ MORE</b></a></p>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="column">
+          <center><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated.html"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/When_You_Have_Been....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>When You’ve Been Fully Vaccinated – How to Protect Yourself and Others</h2>
+          </div>
+          <div class='card-body'>
+            <p>The US Center for Disease Control and Prevention reveals “Safer Activities for You and Your
+              Family” post-COVID vaccination.</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated.html" target="_blank"><b>READ
+                MORE</b></a></p>
+        </div>
+
+
+        <div class="column">
+          <center><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness.html"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Ensuring_COVID-19....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>Ensuring COVID-19 Vaccines Work</h2>
+          </div>
+          <div class='card-body'>
+            <p>CDC recommendations to ensure the COVID-19 vaccination is effective for you and your
+              family.</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a
+              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/effectiveness.html" target="_blank"><b>READ
+                MORE</b></a></p>
+        </div>
+
+
+        <div class="column">
+          <center><a href="https://youtu.be/mhasPXMFZlI"><img
+                src="https://cdn.shopify.com/s/files/1/0570/3906/1186/files/Community_Immunity....jpg?v=1627633928"></a>
+            .card-title</center>
+          <div class='card-title'>
+            <h2>Community immunity or herd immunity can help us return to a sense of
+          </div>
+          <div class='card-body'>
+            “normal” when 85% of Americans get COVID vaccinated (YouTube interview
+            video)</h2>
+            <p>Dr. Anthony Fauci, M.D., the nation’s leading infectious disease expert, discusses how
+              community immunity, or herd immunity, can help us return to a sense of “normal” when 85%
+              of Americans get COVID vaccinated (YouTube interview video)</p>
+          </div>
+          <p class="clr" style="text-align: center;"><a href="https://youtu.be/mhasPXMFZlI" target="_blank"><b>WATCH
+                VIDEO</b></a></p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
